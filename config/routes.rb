@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   
   get '/songs/:id', to: 'songs#show'
   #^not a :symbol, it's route specific language
+  
+  
 end
